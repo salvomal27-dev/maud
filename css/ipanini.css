@@ -1,0 +1,54 @@
+
+.txtipanini {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.esempio {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 20px;
+}
+.ppanini {
+    color: white;
+    
+    width: 70%;
+    
+    font-size: 20px;
+}
+
+
+#food-slider {
+    position: relative;
+    width: 100%;
+    min-height: 550px;   /* Regola l’altezza */
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: center;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.descrizione {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contenuto {
+    height: 500px;
+}
+.descrizione{
+    color: white;
+}

@@ -1,0 +1,18 @@
+#eventi {
+    margin-top: 30%;
+    
+}
+#txtevent {
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+#legend {
+    width: 100%;
+}
+#postevent {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 9%;
+    margin-top: 5px;
+}

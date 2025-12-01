@@ -1,0 +1,10 @@
+#footer {
+    border-top: 2px white solid;
+    display: flex;
+    margin: 15%;
+
+}
+h5 {
+    color: white;
+    opacity: 50%;
+}
